@@ -6,6 +6,11 @@ The purpose of this repo to announce mDNS record of [wire-pod](https://github.co
 
 This is useful to separate logic of [wire-pod](https://github.com/kercre123/wire-pod) and mDNS broadcasting (which can be run on a different device or docker network)
 
+## How it works
+
+1) Check if vektor is exists in a network (with mDNS browse)
+2) If vektor exists - start to announce mDNS proxy (default each 1 minute)
+
 ## Useful cases
 
 - Separate mDNS broadcast and wire-pod instance
