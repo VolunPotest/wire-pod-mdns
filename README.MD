@@ -26,3 +26,7 @@ This is useful to separate logic of wire-pod and mDNS broadcasting (which can be
 - Install docker if not installed
 - build the image with command: `docker build -t "wire-pod-mdns"`
 - run docker with command: `docker run -d --network host wire-pod-mdns --srvIP "provide IP of host with wire-pod running"`
+
+## TODOs
+
+- Make an image to docker hub
