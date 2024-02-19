@@ -2,14 +2,14 @@
 
 This is the wire-pod mDNS instance.
 
-The purpose of this repo to announce mDNS record of wire-pod (escapepod) to vektor.
+The purpose of this repo to announce mDNS record of [wire-pod](https://github.com/kercre123/wire-pod) (escapepod) to vektor.
 
-This is useful to separate logic of wire-pod and mDNS broadcasting (which can be run on a different device or docker network)
+This is useful to separate logic of [wire-pod](https://github.com/kercre123/wire-pod) and mDNS broadcasting (which can be run on a different device or docker network)
 
 ## Useful cases
 
 - Separate mDNS broadcast and wire-pod instance
-- Don't use host network more in wire-pod instance
+- Don't use host network more in wire-pod instance (see compose.yaml file)
 
 ## How to use (docker compose) - Recommended
 
